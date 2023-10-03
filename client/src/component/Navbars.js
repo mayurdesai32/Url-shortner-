@@ -32,7 +32,7 @@ const Navbars = () => {
               </a>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='https://mayurdesai.herokuapp.com/'>
+              <a className='nav-link' href='https://mayurdesai.vercel.app/'>
                 Contact
               </a>
             </li>

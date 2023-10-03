@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='container'>
           <center>
             <h4 className='py-5'>
-              © 2021 ShortUrl.at - Tool to shorten a long link.
+              © 2023 ShortUrl.at - Tool to shorten a long link.
             </h4>
           </center>
         </div>
