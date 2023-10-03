@@ -7,15 +7,18 @@ const Home = () => {
 
   const handleclick = async (e) => {
     e.preventDefault();
-    const res = await fetch('/api/url/shortner', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        longUrl: state,
-      }),
-    });
+    const res = await fetch(
+      'https://url-shortner-2n7v.onrender.com/api/url/shortner',
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          longUrl: state,
+        }),
+      }
+    );
     const data = await res.json();
     if (!data) {
       window.alert('there some error');
