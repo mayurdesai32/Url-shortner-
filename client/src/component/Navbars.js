@@ -5,7 +5,7 @@ const Navbars = () => {
     <>
       <nav className=' navbar sticky-top navbar-expand-lg navbar-light bg-primary'>
         <a className='navbar-brand' href='/'>
-          Navbar
+          URLSHORTNER
         </a>
         <button
           className='navbar-toggler'

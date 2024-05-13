@@ -4,7 +4,7 @@ import { CopyToClipboard } from 'react-copy-to-clipboard';
 const Home = () => {
   const [state, setstate] = useState('');
   const [submit, setsubmit] = useState('Get Shorten');
-
+  // http://localhost:5000/api/url/shortner
   const handleclick = async (e) => {
     e.preventDefault();
     const res = await fetch('/api/url/shortner', {
