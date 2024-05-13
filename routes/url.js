@@ -4,8 +4,6 @@ const Url = require('../models/urlSchema');
 const validurl = require('valid-url');
 const shortid = require('shortid');
 
-//  "postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
-
 router.post('/shortner', async (req, res) => {
   const { longUrl } = req.body;
   const baseurl = process.env.BASE_URL;
